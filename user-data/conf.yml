@@ -45,3 +45,24 @@ sections:
     url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
     icon: far fa-hands-helping
   
+sections:
+  - name: Familjens Dashboard
+    icon: fas fa-home
+    displayData:
+      cols: 2  # Delar upp skärmen snyggt
+    widgets:
+      - type: clock
+        options:
+          format: "DD MMMM YYYY"
+      - type: weather
+        options:
+          apiKey: 'DIN_OPENWEATHER_NYCKEL_HÄR'
+          city: 'Stockholm'
+          units: metric
+      - type: iframe
+        options:
+          url: 'LÄNKEN_TILL_DIN_GOOGLE_KALENDER'
+          height: 500
+      - type: iframe
+        options:
+          url: 'LÄNKEN_TILL_PUBLIC_ALBUM'
