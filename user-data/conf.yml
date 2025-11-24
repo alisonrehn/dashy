@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Familjens Dashboard
+  description: Översikt med kalender, att-göra och annat
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
