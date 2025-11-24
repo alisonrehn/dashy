@@ -4,8 +4,6 @@ pageInfo:
   title: Familjens Dashboard
   description: Översikt med kalender, att-göra och annat
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
   - title: Documentation
     path: https://dashy.to/docs
 
@@ -16,10 +14,10 @@ appConfig:
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Familjens Dashboard
-    icon: fas fa-home
-    displayData:
+  icon: fas fa-home
+  displayData:
       cols: 2  # Delar upp skärmen snyggt
-    widgets:
+  widgets:
       - type: clock
         options:
           format: "DD MMMM YYYY"
